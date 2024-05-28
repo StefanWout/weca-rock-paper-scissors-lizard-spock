@@ -1,4 +1,4 @@
-# Horror art portfolio
+#  Rock, Paper, Scissors, Lizard, Spock Game
 
 For the Code Institute Bootcamp Hackathon #2, our team decided to complete the Rock, Paper, Scissors, Lizard, Spock game. We used the challenge provided by Frontend Mentor to come up with the general layout and style of the app while customizing elements of it to better suit our own sensibilities.
 
