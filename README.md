@@ -2,7 +2,7 @@
 
 For the Code Institute Bootcamp Hackathon #2, our team decided to complete the Rock, Paper, Scissors, Lizard, Spock game. We used the challenge provided by Frontend Mentor to come up with the general layout and style of the app while customizing elements of it to better suit our own sensibilities.
 
-### References#
+### References
 
 - __Original Challenge__
 (https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
