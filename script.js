@@ -7,10 +7,29 @@ const rules = {
     spock: ["rock", "scissors"]
 };
 let computerHand = "";
-let playerHand = "";
+let playerHand = ""
+const playerChoice = document.getElementsByClassName('game-card')
+
 let result = "";
+// resultElement = document.get -- need new div with id of result?
+
 let playerScore = 0;
-let computerScore = 0;
+const scoreElement = document.getElementsByClassName("score-count")
 
+function getComputerHand() {
+    const randomIndex = Math.floor(Math.random() * hands.length);
+    return hands[randomIndex];
+  }
 
+function playRound(playerHand) {
+    computerChoice = getComputerChoice();
+    outcome = determineWinner(playerChoice, computerChoice);
+    
+    if (outcome === "win") {
+      playerScore++;
+    } else if (outcome === "lose") {
+      playerScore--;
+    }
+  }
 
+  
