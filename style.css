@@ -2,7 +2,7 @@
 html {
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     background-color: #0d001a;
     color: #666699;
     margin: 0;
@@ -12,18 +12,21 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: 'Space Grotesk';
 }
 li, p {
-    font-family: 'Space Grotesk';
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main-container {
+    width: 100%;
 }
 
 /* Title Block */
 .title-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -36,7 +39,7 @@ li, p {
 
 .title-block ul li {
     font-size: 18px;
-    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .score {
@@ -64,30 +67,69 @@ li, p {
     flex-wrap: wrap;
     max-width: 80%;
 }
+.pentagon-container {
+    position: relative;
+    width: 80%; 
+    height: 0;
+    padding-bottom: 69.28%; /* Pentagon aspect ratio */
+    margin: 0 auto; /* Center the container horizontally */
+}
 
 .game-card {
     position: relative;
     background-color: #ffc61a;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+}
+.game-card:nth-child(1) {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -200%);
+}
+.game-card:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(144deg) translate(0%, -200%);
 }
 
+.game-card:nth-child(4) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(216deg) translate(0%, -200%);
+}
+
+.game-card:nth-child(5) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(288deg) translate(0%, -200%);
+}
+
+.game-card:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(72deg) translate(0%, -200%);
+}
 .game-card:hover {
-    transform: scale(1.1);
+    background-color: #666699;
 }
 
 .game-card img {
-    width: 80px;
-    height: 80px;
+    width: 50%;
+    height: auto;
     position: absolute;
+    transform: rotate(180deg);
+    object-fit: contain;
 }
-
+.scissors img {
+    transform: rotate(135deg);
+}
 /* Results Screen */
 .section.picked {
     display: flex;
