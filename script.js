@@ -80,6 +80,8 @@ gameCards.forEach(card => {
 // Event listener for play again button
 playAgainButton.addEventListener('click', () => {
   pickedSection.classList.add('hidden');
+//   pcPickElement.classList.add('hidden');
+//   userPickElement.classList.add('hidden');
   resultElement.classList.add('hidden');
 });
   
