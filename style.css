@@ -21,6 +21,7 @@ li, p {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    position: absolute;
 }
 
 /* Title Block */
@@ -65,16 +66,17 @@ li, p {
 /* User Choice */
 
 .pentagon-container {
-    background-image: url('assets/other-imgs/pent.png') cover;
+    background-image: url('assets/other-imgs/pent.png');
+    background-size: cover;
     position: relative;
     width: 100%; 
     height: max-content;
-    padding-bottom: 69.28%; /* Pentagon aspect ratio */
-    margin: 0 0 5vw; /* Center the container horizontally */
+    padding-bottom: 69.28%; 
+    margin: 0 0 5vw; 
 }
 
 .game-card {
-    position: relative;
+    position: absolute;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
@@ -82,52 +84,55 @@ li, p {
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s;
-    position: absolute;
     width: 15vw;
     height: 15vw;
 }
+
 .game-card:nth-child(1) {
     top: 50%;
     left: 50%;
-    transform: translate(0%, -200%);
-}
-.game-card:nth-child(3) {
-    top: 50%;
-    left: 50%;
-    transform: rotate(144deg) translate(0%, -200%);
-}
-
-.game-card:nth-child(4) {
-    top: 50%;
-    left: 50%;
-    transform: rotate(216deg) translate(0%, -200%);
-}
-
-.game-card:nth-child(5) {
-    top: 50%;
-    left: 50%;
-    transform: rotate(288deg) translate(0%, -200%);
+    transform: translate(-50%, -150%);
 }
 
 .game-card:nth-child(2) {
     top: 50%;
     left: 50%;
-    transform: rotate(72deg) translate(0%, -200%);
+    transform: rotate(72deg) translate(-50%, -150%);
 }
+
+.game-card:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(144deg) translate(-50%, -150%);
+}
+
+.game-card:nth-child(4) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(216deg) translate(-50%, -150%);
+}
+
+.game-card:nth-child(5) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(288deg) translate(-50%, -150%);
+}
+
 .game-card:hover {
     background-color: #666699;
 }
 
 .game-card img {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    transform: rotate(180deg);
+    width: 80%;
+    height: 80%;
     object-fit: contain;
+    border-radius: 50%;
 }
+
 .scissors img {
     transform: rotate(135deg);
 }
+
 /* Results Screen */
 .section.picked {
     display: flex;

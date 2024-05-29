@@ -102,6 +102,3 @@ rulesButton.addEventListener('click', () => {
 closeModalButton.addEventListener('click', () => {
   modalElement.classList.toggle('hidden')
 })
-  
-
-  

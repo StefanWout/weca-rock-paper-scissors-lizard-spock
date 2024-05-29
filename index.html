@@ -10,6 +10,7 @@
     <title>Starjam</title>
 </head>
 <body>
+    <head>
     <div class="flex-column main-container text-shadow">
     <!-- Score Block -->
     <section class="title-block">
@@ -25,18 +26,18 @@
             <div class="score-count">0</div>
         </div>
     </section>
-
+</head>
     <!-- User Selection -->
     <section class="pentagon-container ">
 
-        <div class="game-card rock">
-            <img src="assets/hand-icons/icon-rock.svg" alt="hand making rock symbol">
+        <div class="game-card scissors" data-choice="scissors">
+            <img src="assets/hand-icons/icon-scissors.svg" alt="hand making scissors symbol">
         </div>
         <div class="game-card paper" data-choice="paper">
             <img src="assets/hand-icons/icon-paper.svg" alt="hand making paper symbol">
         </div>
-        <div class="game-card scissors" data-choice="scissors">
-            <img src="assets/hand-icons/icon-scissors.svg" alt="hand making scissors symbol">
+        <div class="game-card rock" data-choice="rock">
+            <img src="assets/hand-icons/icon-rock.svg" alt="hand making rock symbol">
         </div>
         <div class="game-card lizard" data-choice="lizard">
             <img src="assets/hand-icons/icon-lizard.svg" alt="lizard symbol">
@@ -45,8 +46,8 @@
             <img src="assets/hand-icons/icon-spock.svg" alt="hand making spock symbol">
         </div>
     </section>
-
-    <!-- Results Screen -->
+<br>
+    <footer>
     <div class="section picked hidden">
         <div class="choice chose">
             <p>You chose!</p>
@@ -75,6 +76,7 @@
         </div>
     </div>
 </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
