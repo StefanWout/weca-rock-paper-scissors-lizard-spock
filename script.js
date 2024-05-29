@@ -22,6 +22,9 @@ const pcPickElement = document.querySelector('.pc-pick');
 const pickedSection = document.querySelector('.section.picked');
 const playAgainButton = document.querySelector('.play-again');
 const gameCards = document.querySelectorAll('.game-card');
+const rulesButton = document.querySelector('.rules-btn');
+const modalElement = document.querySelector('.modal');
+const closeModalButton = document.querySelector('.modal .close');
 
 // Function to get the computer's choice
 function getComputerChoice() {
@@ -82,6 +85,16 @@ playAgainButton.addEventListener('click', () => {
   pickedSection.classList.add('hidden');
   resultElement.classList.add('hidden');
 });
+
+// Event listener for rules button
+rulesButton.addEventListener('click', () => {
+  modalElement.classList.toggle('hidden');
+});
+
+// Event listener for close modal button
+closeModalButton.addEventListener('click', () => {
+  modalElement.classList.toggle('hidden')
+})
   
 
   
