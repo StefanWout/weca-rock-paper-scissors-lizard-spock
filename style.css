@@ -26,8 +26,14 @@ li, p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0d001a;
+    z-index: 1000;
+    padding: 10px 0;
 }
 
 .title-block ul {
@@ -35,26 +41,21 @@ li, p {
     padding: 0;
     display: flex;
     gap: 15px;
+    margin: 0;
 }
 
 .title-block ul li {
-    font-size: 18px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1rem, 2vw, 2.5rem);
 }
 
-.score {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* Responsive font size for score titles */
 .score-title {
-    font-size: 20px;
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
     margin-bottom: 10px;
 }
 
 .score-count {
-    font-size: 40px;
+    font-size: clamp(2rem, 5vw, 6rem);
     font-weight: bold;
 }
 
@@ -133,9 +134,11 @@ li, p {
 /* Results Screen */
 .section.picked {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     width: 100%;
+    text-align: center;
+    margin-top: 40px; /* Add margin to separate from user-choice */
 }
 
 .choice {
@@ -147,11 +150,12 @@ li, p {
 .choice p {
     font-size: 24px;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .user-pick, .pc-pick {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
