@@ -74,8 +74,8 @@ head {
     background-image: url('assets/other-imgs/pent.png');
     background-size: cover;
     position: relative;
-    width: 60vw; /* Changed from 100% to a fixed size */
-    height: 60vw; /* Make it a square for consistent positioning */
+    width: 60vw;
+    height: 60vw; 
     margin: 0 0 5vw;
 }
 
@@ -127,10 +127,10 @@ head {
 }
 
 .game-card img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 .scissors img {
@@ -173,9 +173,11 @@ head {
 }
 
 .user-pick img, .pc-pick img {
-    width: 80px;
-    height: 80px;
-    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 25%;
+    object-fit: contain;
+    /* position: absolute; */
 }
 
 .result {
