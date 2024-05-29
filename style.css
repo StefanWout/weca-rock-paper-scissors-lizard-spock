@@ -147,17 +147,20 @@ li, p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 15vw;
+    height: auto;
 }
 
 .choice p {
     font-size: 24px;
     margin-bottom: 10px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .user-pick, .pc-pick {
-    width: 15vw;
-    height: 15vw;
+    width: 11vw;
+    height: 11vw;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
