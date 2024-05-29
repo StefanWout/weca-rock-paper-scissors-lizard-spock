@@ -17,6 +17,9 @@ body {
 li, p {
     font-family: 'Space Grotesk';
 }
+.main-container {
+    width: 100%;
+}
 
 /* Title Block */
 .title-block {
@@ -64,6 +67,13 @@ li, p {
     flex-wrap: wrap;
     max-width: 80%;
 }
+.pentagon-container {
+    position: relative;
+    width: 80%; /* Adjust as needed */
+    height: 0;
+    padding-bottom: 69.28%; /* This value is to keep the aspect ratio of a regular pentagon */
+    margin: 0 auto; /* Center the container horizontally */
+}
 
 .game-card {
     position: relative;
@@ -76,8 +86,40 @@ li, p {
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s;
+    position: absolute;
+    width: 10%; /* Adjust as needed */
+    height: 10%; /* Adjust as needed */
+    /* For positioning each card at the vertex of a regular pentagon */
+    /* Calculate the coordinates based on the pentagon container size */
+}
+.game-card:nth-child(1) {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -400%);
+}
+.game-card:nth-child(3) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(144deg) translate(0%, -400%);
 }
 
+.game-card:nth-child(4) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(216deg) translate(0%, -400%);
+}
+
+.game-card:nth-child(5) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(288deg) translate(0%, -400%);
+}
+
+.game-card:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: rotate(72deg) translate(0%, -400%);
+}
 .game-card:hover {
     transform: scale(1.1);
 }
