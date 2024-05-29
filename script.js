@@ -84,6 +84,11 @@ gameCards.forEach(card => {
 playAgainButton.addEventListener('click', () => {
   pickedSection.classList.add('hidden');
   resultElement.classList.add('hidden');
+  userPickElement.innerHTML = "";
+  pcPickElement.innerHTML = "";
+  playerScore = 0;
+  computerScore = 0;
+  scoreCountElement.textContent = 0;
 });
 
 // Event listener for rules button
