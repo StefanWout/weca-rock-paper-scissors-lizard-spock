@@ -66,6 +66,7 @@ li, p {
 /* User Choice */
 
 .pentagon-container {
+    background-image: url('assets/other-imgs/pent.png') cover;
     position: relative;
     width: 100%; 
     height: max-content;
