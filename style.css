@@ -57,16 +57,19 @@ li, p {
 .score-count {
     font-size: clamp(2rem, 5vw, 6rem);
     font-weight: bold;
+    text-align: center;
 }
 
 /* User Choice */
 .user-choice {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin-top: 80px;
     margin-bottom: 40px;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 100%;
 }
 .pentagon-container {
     position: relative;
@@ -134,11 +137,10 @@ li, p {
 /* Results Screen */
 .section.picked {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    text-align: center;
-    margin-top: 40px; /* Add margin to separate from user-choice */
+    margin-top: auto; /* Pushes .picked to the bottom */
 }
 
 .choice {
@@ -154,8 +156,8 @@ li, p {
 }
 
 .user-pick, .pc-pick {
-    width: 100px;
-    height: 100px;
+    width: 15vw;
+    height: 15vw;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
