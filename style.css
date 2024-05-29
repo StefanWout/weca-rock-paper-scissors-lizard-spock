@@ -14,8 +14,9 @@ body {
     height: 100vh;
 }
 li, p {
-    font-family: 'Space Grotesk';
+    font-family: 'Space Grotesk', sans-serif;
 }
+
 .main-container {
     width: 100%;
 }
@@ -38,7 +39,7 @@ li, p {
 
 .title-block ul li {
     font-size: 18px;
-    font-weight: bold;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .score {
