@@ -189,6 +189,10 @@ li, p {
     background-color: #45a049;
 }
 
+.result button.hidden {
+    display: none;
+}
+
 /* Rules Button */
 .rules-btn {
     position: absolute;

@@ -70,6 +70,7 @@ function updateDOMAfterRound(outcome) {
   scoreCountElement.textContent = playerScore - computerScore;
   pickedSection.classList.remove('hidden');
   resultElement.classList.remove('hidden');
+  playAgainButton.classList.remove('hidden');
 }
 
 // Event listeners for player choices
@@ -89,6 +90,7 @@ playAgainButton.addEventListener('click', () => {
   playerScore = 0;
   computerScore = 0;
   scoreCountElement.textContent = 0;
+  playAgainButton.classList.add('hidden');
 });
 
 // Event listener for rules button
