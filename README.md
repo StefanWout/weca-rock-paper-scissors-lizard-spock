@@ -45,12 +45,20 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/9c5809a0-329c-4a47-90bb-655c17013341)
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/e135424b-a90d-4dbf-a5d7-2e861aa61ade)
 
-## End Design
+## Ongoing Design Layout
 
-  - The below images show the final look of the finished site.
+  - The below images show the look of the site whilst we were struggling with responsiveness issues.
 
 <img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/1289325a-4a51-4bd4-b6ac-fe787dd81f2c">
 <img width="440" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/f3836d82-fee5-41e4-87d0-35210ffac584">
+
+## Final Design Layout
+
+  - The below images show the layout of the deployed site in mobile, tablet and desktop form.
+
+<img width="173" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/f38c4a95-87bc-4dee-8ad0-0fd60e787913">
+<img width="410" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/c43de5ac-97c9-4d72-8428-b28457395e30">
+<img width="1440" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/7b1b3a62-b79a-4d99-81d1-0da717f7b0f2">
 
 ## Features We'd implement in the future if we could
 
@@ -60,77 +68,59 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 ### Feature Testing
 
-![feature testing table](assets/readme-images/feature-testing.png)
+  - No identifiable issues with JavaScript during testing of the deployed site
 
 ### Validator Testing 
 
-- __No errors in our CSS were found first try!__
+- __CSS Validation__
 
-![css valid](assets/readme-images/css-valid.png)
+  - 5 errors identified which we addressed
 
-- __When validating the HTML...__
+<img width="1310" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/a28fedb3-f92e-4185-96e8-27e5381ee487">
 
-  - 7 warnings were identified
+- __HTML Validation__
 
-  ![html warning](assets/readme-images/html-warning-1.png)
+  - 10 errors/warnings identified which we addressed
 
-  ![html warning](assets/readme-images/html-warning-2.png)
+<img width="1392" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/fc1d069c-beba-4756-8806-df53613af74b">
 
-  ![html warning](assets/readme-images/html-warning-3.png)
+- __JavaScript Validation__
 
-  ![html warning](assets/readme-images/html-warning-4.png)
+29 warnings identified, 2 missing semicolons corrected
 
-  ![html warning](assets/readme-images/html-warning-5.png)
-
-  ![html warning](assets/readme-images/html-warning-6.png)
-
-  ![html warning](assets/readme-images/html-warning-7.png)
-
-  - 10 errors were identified
-
-  ![html error](assets/readme-images/html-error-1.png)
-
-  ![html error](assets/readme-images/html-error-2.png)
-
-  ![html error](assets/readme-images/html-error-3.png)
-
-  ![html error](assets/readme-images/html-error-4.png)
-
-  ![html error](assets/readme-images/html-error-5.png)
-
-  ![html error](assets/readme-images/html-error-6.png)
-
-  ![html error](assets/readme-images/html-error-7.png)
-
-  ![html error](assets/readme-images/html-error-8.png)
-
-  ![html error](assets/readme-images/html-error-9.png)
-
-  ![html error](assets/readme-images/html-error-10.png)
-
-
-
-### Identified Bugs
-
-  - Navbar logo did not link to index.html
-  - SOLUTION- Add correct href to the anchor element
-
-
- 
+2	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+3	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+11	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+12	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+13	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+14	'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+17	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+18	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+19	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+20	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+21	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+22	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+23	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+24	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+25	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+26	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+27	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+31	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+50	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+57	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+58	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+77	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+78	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+79	'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+85	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+97	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+102	'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+103	Missing semicolon.
+104	Missing semicolon.
 
 ## Deployment
 
-- __Via github pages in the repo settings menu__
-
-  - ![deployment procedure](assets/readme-images/deployment-procedure-1.png)
-
-  - ![deployment procedure](assets/readme-images/deployment-procedure-2.png)
-
-- __Selected main branch and /root and clicked save__
-
-  - ![deployment procedure](assets/readme-images/deployment-procedure-3.png)
-
-  - ![deployment procedure](assets/readme-images/deployment-procedure-4.png)
+https://stefanwout.github.io/weca-rock-paper-scissors-lizard-spock/
 
 ## Credits
 
