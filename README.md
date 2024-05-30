@@ -12,8 +12,6 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 ## Features 
 
-
-
 ### User stories
 
 - __Sitewide__
@@ -48,8 +46,7 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 <img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/1289325a-4a51-4bd4-b6ac-fe787dd81f2c">
 <img width="440" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/f3836d82-fee5-41e4-87d0-35210ffac584">
 
-
-### Features We'd implement in the future if we could
+## Features We'd implement in the future if we could
 
   - A final count on the score at, for instance 5/-5, where the user or compueter would win and the game would reset at that point.
 
@@ -129,17 +126,16 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
   - ![deployment procedure](assets/readme-images/deployment-procedure-4.png)
 
-## Credits 
+## Credits
+
+### Team Members
 
 Team Lead: Stefan Woutersen
 Team Members: Harrison Greenwood
               James Barlow
 
-
 ### Media
 
- - Artist photos used on the about page are from @cottonbro on pexels : https://www.pexels.com/@cottonbro/
-   - zdg-blackandwhite.jpg - https://www.pexels.com/photo/tired-man-resting-on-wooden-chair-3779062/ 
-   - zdg-painting.jpg - https://www.pexels.com/photo/man-in-black-long-sleeves-standing-near-easel-3778997/
-   - zdg-thinking.jpg - https://www.pexels.com/photo/side-view-photo-of-elderly-man-holding-a-paint-brush-3778998/
- - Art images were created using canva pro : https://www.canva.com/en_gb/
+ - Images for the symbols and the rules modal taken from the below site and then edited using CSS
+
+https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
