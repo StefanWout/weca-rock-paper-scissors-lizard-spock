@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/other-imgs/favicon-RPS.png" type="image/x-icon">
     <title>Starjam</title>
 </head>
 <body>
@@ -25,23 +26,23 @@
             <div class="score-count">0</div>
         </div>
     </section>
-
+<br>
     <!-- User Selection -->
     <section class="pentagon-container ">
 
-        <div class="game-card rock">
-            <img src="assets/hand-icons/icon-rock.svg" alt="hand making rock symbol">
-        </div>
-        <div class="game-card paper">
-            <img src="assets/hand-icons/icon-paper.svg" alt="hand making paper symbol">
-        </div>
-        <div class="game-card scissors">
+        <div class="game-card scissors" data-choice="scissors">
             <img src="assets/hand-icons/icon-scissors.svg" alt="hand making scissors symbol">
         </div>
-        <div class="game-card lizard">
+        <div class="game-card paper" data-choice="paper">
+            <img src="assets/hand-icons/icon-paper.svg" alt="hand making paper symbol">
+        </div>
+        <div class="game-card rock" data-choice="rock">
+            <img src="assets/hand-icons/icon-rock.svg" alt="hand making rock symbol">
+        </div>
+        <div class="game-card lizard" data-choice="lizard">
             <img src="assets/hand-icons/icon-lizard.svg" alt="lizard symbol">
         </div>
-        <div class="game-card spock">
+        <div class="game-card spock" data-choice="spock">
             <img src="assets/hand-icons/icon-spock.svg" alt="hand making spock symbol">
         </div>
     </section>
@@ -52,19 +53,19 @@
             <p>You chose!</p>
             <div class="user-pick"></div>
         </div>
-        <div class="result hidden">
-            <div class="title">You lose</div>
-            <button>Play Again</button>
+        <div class="result">
+            <div class="title"></div>
+            <button class="play-again hidden">Reset Game</button>
         </div>
         <div class="choice">
-            <p>Sheldon picked</p>
+            <p>Sheldon picked!</p>
             <div class="pc-pick"></div>
         </div>
     </div>
 
     <!-- Rules Modal -->
     <button class="rules-btn">Rules</button>
-    <div class="modal-bg"></div>
+    <!-- <div class="modal-bg hidden"></div> -->
     <div class="modal">
         <span class="close">
             <img src="assets/other-imgs/icon-close.svg">
@@ -75,6 +76,7 @@
         </div>
     </section>
 </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>

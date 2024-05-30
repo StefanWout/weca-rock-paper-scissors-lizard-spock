@@ -10,144 +10,51 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 - __Tutorial Video__
 (https://www.youtube.com/watch?v=lV2BMXdsDmc)
 
-![Responsive Mockup]
 ## Features 
-
-
 
 ### User stories
 
 - __Sitewide__
 
-  - As a visitor, I want the game to be mobile-responsive, so that I can play on my smartphone or tablet device.
-  
-  ![image info]
-  ![image info]
-  ![image info]
-  ![image info]
+  - As a user, I want the game to be mobile-responsive, so that I can play on my smartphone or tablet device.
+  - As a site owner, I want a game to entertain users.
+  - As a user, I want to be able to see a score to know how well I am doing.
+  - As a user, I want to be able to read the rules of the game to understand how it works.
 
-&#10003; All pages are fully functional on mobile devices
+### Gamepage
 
-- __Gamepage__
+   - This site is a simple online game for rock, paper, scissors, lizard, spock. Based on the game popularised in The Big Bang Theory.
+   - When first loaded users are presented with a rules modal, a diagram showing each outcome of the game. This can be closed by either clicking the "X" or the "Rules" button, which is set to toggle the modal.
+   - Users can then play the game by selecting any of the 5 options, presented as buttons each with a symbol representing the choice made.
+   - Once a selection has been made the outcome is displayed towards the bottom of the screen.
+   - Users can then play again by selecting one of the 5 options and the outcome will update to reflect the new result.
+   - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
+   - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
 
+### Issues
 
-- __About__
-
-  - As a user, I want to see pictures of the artist so that I can get to know them more.
-  - As the artist I want pictures of myself shown to the user so that I can present myself well.
-  - As a user, I want to see the artist's biography so that I can learn more about them.
-
-  ![image info](assets/userstoryimages/about%20page%20desktop.png)
-  ![image info](assets/userstoryimages/about%20page%20screen%20shot%20mobile.png)
-
-&#10003; Wireframe in MoSCoW followed precicely
-
-  - As a user, I want to see a timeline of the artist's work/life so that I can quickly learn about their journey as an artist.
-
-      &#10003; Detailed biography sections made a timeline unnecessary
-
-- __Merchandise__
-
-  - As a user, I want the ability to purchase some art directly from the website so that I can easily support the artist.
-
-  ![image info](assets/userstoryimages/home%20page%20call%20to%20action.png)
-
-&#10003; All products are commisioned pieces so contacting the artist is the best way to make a purchase
-
-- __Footer__
-
-  - As a user, I want to see clickable social links in the footer so that I can easily go to the artist's socials to keep up to date with them.
-  - As the artist, I want to have clickable social links in the footer of the website so that I can increase traffic to them.
-  - As the artist, I want my copyrights to be visible in the footer so that I can protect my IP.
-  - As a user, I want back to top button on the footer so that I can return to the top of the page with only 1 click.
-
-  ![image info](assets/userstoryimages/footer.png)
-
-&#10003; Footer covers all the above user stories, all footer links and buttons change color on float for accesibility
-
-  - As a user, I want to see contact information in the footer so that I can easily contact the artist.
-
-      &#10023; The artist prefers to screen requests and has asked not to have contact information readily available but instead wants to encourage the use of the contact form page
-
-  - As a user, I want to see a contact link in the footer so that I can easily contact the artist.
-
-      &#10023; All nav links were removed from the footer as the nav bar would remain fixed in the viewport. This lead to a far cleaner look.
-  
-
-### MoSCoW Table
-
- - ![moscow table](assets/readme-images/moscow-table.png)
-
+  - We had issues with the responsiveness of the page when viewed on a laptop, with the top choice button moving under the header.
+  - We struggled to get the choice buttons to be responsive in a pentagon shape and stay relative to the other elements on the page. Resolved through trial and error with the flex properties.
+  - The rules modal appears when the page is first loaded, at first this was a bug, however after attempting to fix it with a toggle in JavaScript we decided to leave this as a feature of the game. The toggle works so the user can remove it and bring it back up if needed.
 
 ## Wireframes
 
-- __Homepage__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Homepage.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Homepage-High-fidelity.png)
+  - The below wireframe images show our original ideas for the basic layout of the page.
 
-- __Gallery__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Gallery-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Gallery-page-High-fidelity.png)
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/4f59d7ac-4966-48d0-9cd3-04c436989cfb)
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/9c5809a0-329c-4a47-90bb-655c17013341)
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/e135424b-a90d-4dbf-a5d7-2e861aa61ade)
 
-- __About__
-  - Low fidelity
-  ![wireframes](assets/wireframes/About-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/About-page-High-fidelity.png)
+## End Design
 
-- __Contact__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Contact-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Contact-page-High-fidelity.png)
-  
-### Existing Features
+  - The below images show the final look of the finished site.
 
-  - Static web site with 4 separate pages (Home, Gallery, About, Contact)
-  - Responsive design for each page allowing use on mobile and desktop
-- __Header__
-  - Sticky header.
-  - NavBar in header linking to all for pages 	(Home, Gallery, About, Contact).
-  - Active page is shown in Navbar.
-  - Logo and website title in Navbar link to homepage.
-  - Responsive Nav drop down menu on mobile; navbar links disappear and burger icon appears.
-  - Responsive Nav drop down menu font style changes, increasing readability on mobile.
-  - Responsive title of page changes from “Z.D.Gigerowski” to “Z.D.G” on mobile.
-- __Homepage__
-  - Scroll through highlights with 3 stages
-  - First stage has a background image of a piece of artwork which is parallax
-  - Second stage and third stage have static background images of 2 other pieces of artwork
-  - All 3 stages include text content and a button with a call to action
-  - First stage and second stage buttons link to Gallery page
-  - Third stage button links to  Contact page
-  - Responsive page layout across mobile and desktop
-- __Gallery page__
-  - Download image icons link to new tab with high quality images for each art piece.
-  - Responsive page layout across mobile and desktop
-  - __About Page__
-  - Parallax background image
-  - Responsive page layout across mobile and desktop
- - __Contact Page__
-  - Form input placeholders disappear once text boxes are filled in
-  - Responsive page layout across mobile and desktop
-- __Footer__
-  - Sticky footer
-  - Back to top button
-  - Social links for Facebook, Youtube, Instagram and Twitter(X) link to their respective websites homepage
+<img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/1289325a-4a51-4bd4-b6ac-fe787dd81f2c">
+<img width="440" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/f3836d82-fee5-41e4-87d0-35210ffac584">
 
+## Features We'd implement in the future if we could
 
-### Features We'd implement in the future if we could
-
-  - A dedicated shop/merchendise page for purchase artwork or custom pieces
-  - Secure purchases
-  - Time line of the artist's life pointing out key/inspiring events
-  - Working email form
-
-
+  - A final count on the score at, for instance 5/-5, where the user or compueter would win and the game would reset at that point.
 
 ## Testing 
 
@@ -225,17 +132,16 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
   - ![deployment procedure](assets/readme-images/deployment-procedure-4.png)
 
-## Credits 
+## Credits
 
+### Team Members
 
-### Content 
-
- - Chat Gpt was used for the written paragrpahs on the about page : https://chat.openai.com/
+Team Lead: Stefan Woutersen
+Team Members: Harrison Greenwood
+              James Barlow
 
 ### Media
 
- - Artist photos used on the about page are from @cottonbro on pexels : https://www.pexels.com/@cottonbro/
-   - zdg-blackandwhite.jpg - https://www.pexels.com/photo/tired-man-resting-on-wooden-chair-3779062/ 
-   - zdg-painting.jpg - https://www.pexels.com/photo/man-in-black-long-sleeves-standing-near-easel-3778997/
-   - zdg-thinking.jpg - https://www.pexels.com/photo/side-view-photo-of-elderly-man-holding-a-paint-brush-3778998/
- - Art images were created using canva pro : https://www.canva.com/en_gb/
+ - Images for the symbols and the rules modal taken from the below site and then edited using CSS
+
+https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
