@@ -19,13 +19,12 @@ li, p {
 }
 
 .main-container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: flex-start;
-    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Title Block */
@@ -51,7 +50,7 @@ li, p {
 }
 
 .title-block ul li {
-    font-size: 3.5vw;
+    font-size: 1vh;
 }
 
 /* Responsive font size for score titles */
@@ -97,14 +96,14 @@ li, p {
 .game-card:nth-child(1) {
     top: 30vh;
     left: center;
-    transform: translate(0,-22vh);
+    transform: translate(0,-21vh);
     
 
 }
 .game-card:nth-child(3) {
     top: 30vh;
     left: center;
-    transform: rotate(144deg) translate(0,-22vh);
+    transform: rotate(144deg) translate(0,-21vh);
 
 
 }
@@ -112,7 +111,7 @@ li, p {
 .game-card:nth-child(4) {
     top: 30vh;
     left: center;
-    transform: rotate(216deg) translate(0,-22vh);
+    transform: rotate(216deg) translate(0,-21vh);
 
 
 }
@@ -120,13 +119,13 @@ li, p {
 .game-card:nth-child(5) {
     top: 30vh;
     left: center;
-    transform: rotate(288deg) translate(0,-22vh);;
+    transform: rotate(288deg) translate(0,-21vh);;
 }
 
 .game-card:nth-child(2) {
     top: 30vh;
     left: center;
-    transform: rotate(72deg) translate(0,-22vh);
+    transform: rotate(72deg) translate(0,-21vh);
 
 }
 .game-card:hover {
@@ -215,9 +214,9 @@ li, p {
 /* Rules Button */
 .rules-btn {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
+    bottom: 3vw;
+    right: 5vw;
+    padding: 10px;
     font-size: 3.5vw;
     cursor: pointer;
     background-color: #666699;
