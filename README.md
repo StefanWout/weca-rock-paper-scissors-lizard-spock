@@ -33,13 +33,13 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 - __Gamepage__
 
- - This site is a simple online game for rock, paper, scissors, lizard, spock. Based on the game popularised in The Big Bang Theory.
- - When first loaded users are presented with a rules modal, a diagram showing each outcome of the game. This can be closed by either clicking the "X" or the "Rules" button, which is set to toggle the modal.
- - Users can then play the game by selecting any of the 5 options, presented as buttons each with a symbol representing the choice made.
- - Once a selection has been made the outcome is displayed towards the bottom of the screen.
- - Users can then play again by selecting one of the 5 options and the outcome will update to reflect the new result.
- - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
- - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
+   - This site is a simple online game for rock, paper, scissors, lizard, spock. Based on the game popularised in The Big Bang Theory.
+   - When first loaded users are presented with a rules modal, a diagram showing each outcome of the game. This can be closed by either clicking the "X" or the "Rules" button, which is set to toggle the modal.
+   - Users can then play the game by selecting any of the 5 options, presented as buttons each with a symbol representing the choice made.
+   - Once a selection has been made the outcome is displayed towards the bottom of the screen.
+   - Users can then play again by selecting one of the 5 options and the outcome will update to reflect the new result.
+   - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
+   - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
    
 - __About__
 
