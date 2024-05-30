@@ -50,17 +50,17 @@ li, p {
 }
 
 .title-block ul li {
-    font-size: 1vh;
+    font-size: 2vh;
+    padding-top: 10px;
 }
 
 /* Responsive font size for score titles */
 .score-title {
-    font-size: 4vw;
-    margin-bottom: 10px;
+    font-size: 2vh;
 }
 
 .score-count {
-    font-size: 5vw;
+    font-size: 3vh;
     font-weight: bold;
     text-align: center;
 }
@@ -163,22 +163,21 @@ li, p {
 }
 
 .choice p {
-    font-size: 3.5vw;
+    font-size: 2vh;
     margin-bottom: 10px;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .user-pick, .pc-pick {
-    width: 7vh;
-    height: 7vh;
+    width: 15vw;
+    height: 15vw;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    max-height: 20vh;
 }
 
 .user-pick img, .pc-pick img {
@@ -192,13 +191,13 @@ li, p {
 }
 
 .result .title {
-    font-size: 3.5vw;
+    font-size: 2vh;
     margin-bottom: 20px;
 }
 
 .result button {
     padding: 10px 20px;
-    font-size: 3.5vw;
+    font-size: 1.5vh;
     cursor: pointer;
     background-color: #4caf50;
     border: none;
@@ -217,7 +216,7 @@ li, p {
     bottom: 3vw;
     right: 5vw;
     padding: 10px;
-    font-size: 3.5vw;
+    font-size: 2vh;
     cursor: pointer;
     background-color: #666699;
     border: none;
@@ -272,17 +271,17 @@ li, p {
 @media only screen and (min-width: 768px) {
     
     .title-block ul li {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
     
     /* Responsive font size for score titles */
     .score-title {
-        font-size: 1vw;
+        font-size: 1.5vw;
         margin-bottom: 10px;
     }
     
     .score-count {
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: bold;
         text-align: center;
     }
@@ -332,6 +331,16 @@ li, p {
         position: absolute;
         width: 10vw;
         height: 10vw;
+    }
+    .user-pick, .pc-pick {
+        width: 10vw;
+        height: 10vw;
+        background-color: #ffc61a;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
     
 }
