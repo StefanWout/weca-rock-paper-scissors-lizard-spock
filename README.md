@@ -10,7 +10,6 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 - __Tutorial Video__
 (https://www.youtube.com/watch?v=lV2BMXdsDmc)
 
-![Responsive Mockup]
 ## Features 
 
 
@@ -47,7 +46,7 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
   - The below images show the final look of the finished site.
 
 <img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/1289325a-4a51-4bd4-b6ac-fe787dd81f2c">
-<img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/8e3f39b8-1e06-49c4-b776-ddd159e3d021">
+<img width="440" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/f3836d82-fee5-41e4-87d0-35210ffac584">
 
 
 ### Features We'd implement in the future if we could
