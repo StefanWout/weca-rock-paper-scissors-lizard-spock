@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap');
+html {
+    height: 100%;
+    overflow: hidden;
+}
 body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #0d001a;
     color: #666699;
     margin: 0;
     padding: 0;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: flex-start;
+    max-height: 100%;
+    overflow: hidden;
 }
 li, p {
     font-family: 'Space Grotesk', sans-serif;
@@ -36,8 +43,7 @@ head {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    position: fixed;
-    top: 0;
+    top: auto;
     left: 0;
     background-color: #0d001a;
     z-index: 1000;
@@ -53,17 +59,17 @@ head {
 }
 
 .title-block ul li {
-    font-size: clamp(1rem, 2vw, 2.5rem);
+    font-size: 3.5vw;
 }
 
 /* Responsive font size for score titles */
 .score-title {
-    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    font-size: 4vw;
     margin-bottom: 10px;
 }
 
 .score-count {
-    font-size: clamp(2rem, 5vw, 6rem);
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;
 }
@@ -71,12 +77,14 @@ head {
 /* User Choice */
 
 .pentagon-container {
-    background-image: url('assets/other-imgs/pent.png');
-    background-size: cover;
+    background-color: #45a049;
     position: relative;
-    width: 60vw;
-    height: 60vw; 
-    margin: 0 0 5vw;
+    top: 0;
+    width: 100%; 
+    height: auto;
+    margin: 0 0 0; /* Center the container horizontally */
+    margin-bottom: 30vh;
+    margin-top: 4vh;
 }
 
 .game-card {
@@ -87,41 +95,46 @@ head {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.15s;
+    position: absolute;
     width: 15vw;
     height: 15vw;
 }
 
 .game-card:nth-child(1) {
-    top: 10%; /* Adjusted from 50% to 10% */
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    top: 10vh;
+    left: 42.7vw;
+    transform: translate(0,-30vw);
 
-.game-card:nth-child(2) {
-    top: 30%;
-    left: 85%;
-    transform: translate(-50%, -50%);
 }
-
 .game-card:nth-child(3) {
-    top: 70%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    top: 10vh;
+    left: 42.7vw;
+    transform: rotate(144deg) translate(0,-30vw);
+
+
 }
 
 .game-card:nth-child(4) {
-    top: 70%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    top: 10vh;
+    left: 42.7vw;
+    transform: rotate(216deg) translate(0,-30vw);
+
+
 }
 
 .game-card:nth-child(5) {
-    top: 30%;
-    left: 15%;
-    transform: translate(-50%, -50%);
+    top: 10vh;
+    left: 42.7vw;
+    transform: rotate(288deg) translate(0,-30vw);;
 }
 
+.game-card:nth-child(2) {
+    top: 10vh;
+    left: 42.7vw;
+    transform: rotate(72deg) translate(0,-30vw);
+
+}
 .game-card:hover {
     background-color: #666699;
 }
@@ -155,7 +168,7 @@ head {
 }
 
 .choice p {
-    font-size: 24px;
+    font-size: 3.5vw;
     margin-bottom: 10px;
     flex-wrap: wrap;
     text-align: center;
@@ -185,13 +198,13 @@ head {
 }
 
 .result .title {
-    font-size: 30px;
+    font-size: 3.5vw;
     margin-bottom: 20px;
 }
 
 .result button {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 3.5vw;
     cursor: pointer;
     background-color: #4caf50;
     border: none;
@@ -214,7 +227,7 @@ head {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 3.5vw;
     cursor: pointer;
     background-color: #666699;
     border: none;
