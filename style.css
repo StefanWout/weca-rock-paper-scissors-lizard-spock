@@ -213,9 +213,9 @@ li, p {
 /* Rules Button */
 .rules-btn {
     position: absolute;
-    bottom: 3vw;
-    right: 5vw;
-    padding: 10px;
+    bottom: 5vh;
+    right: 3vh;
+    padding: 10px 10px;
     font-size: 2vh;
     cursor: pointer;
     background-color: #666699;
@@ -308,8 +308,8 @@ li, p {
     }
     .rules-btn {
         position: absolute;
-        bottom: 20px;
-        right: 20px;
+        bottom: 5vh;
+        right: 5vw;
         padding: 10px 20px;
         font-size: 1.5vw;
         cursor: pointer;
@@ -342,5 +342,6 @@ li, p {
         align-items: center;
         position: relative;
     }
+
     
 }
