@@ -342,6 +342,14 @@ li, p {
         align-items: center;
         position: relative;
     }
-
+    .section.picked {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 100%;
+        position: absolute;
+        bottom: 7vh;
+        height: 13vh;
+    }
     
 }
