@@ -76,7 +76,6 @@ li, p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #45a049;
 
 }
 
@@ -150,7 +149,6 @@ li, p {
     width: 100%;
     position: absolute;
     bottom: 5vh;
-    background-color: aqua;
     height: 15vh;
 }
 
