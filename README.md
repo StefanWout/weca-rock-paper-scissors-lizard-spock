@@ -23,15 +23,8 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
   - As a site owner, I want a game to entertain users.
   - As a user, I want to be able to see a score to know how well I am doing.
   - As a user, I want to be able to read the rules of the game to understand how it works.
-  
-  ![image info]
-  ![image info]
-  ![image info]
-  ![image info]
 
-&#10003; All pages are fully functional on mobile devices
-
-- __Gamepage__
+### Gamepage
 
    - This site is a simple online game for rock, paper, scissors, lizard, spock. Based on the game popularised in The Big Bang Theory.
    - When first loaded users are presented with a rules modal, a diagram showing each outcome of the game. This can be closed by either clicking the "X" or the "Rules" button, which is set to toggle the modal.
@@ -40,81 +33,26 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
    - Users can then play again by selecting one of the 5 options and the outcome will update to reflect the new result.
    - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
    - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
-   
-- __About__
-
-  - As a user, I want to see pictures of the artist so that I can get to know them more.
-  - As the artist I want pictures of myself shown to the user so that I can present myself well.
-  - As a user, I want to see the artist's biography so that I can learn more about them.
-
-  ![image info](assets/userstoryimages/about%20page%20desktop.png)
-  ![image info](assets/userstoryimages/about%20page%20screen%20shot%20mobile.png)
-
-&#10003; Wireframe in MoSCoW followed precicely
-
-  - As a user, I want to see a timeline of the artist's work/life so that I can quickly learn about their journey as an artist.
-
-      &#10003; Detailed biography sections made a timeline unnecessary
-
-### MoSCoW Table
-
- - ![moscow table](assets/readme-images/moscow-table.png)
-
 
 ## Wireframes
 
-    - The below wireframe images show our original ideas for the basic layout of the page.
+  - The below wireframe images show our original ideas for the basic layout of the page.
 
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/4f59d7ac-4966-48d0-9cd3-04c436989cfb)
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/9c5809a0-329c-4a47-90bb-655c17013341)
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/e135424b-a90d-4dbf-a5d7-2e861aa61ade)
 
+## End Design
 
+  - The below images show the final look of the finished site.
 
-  
-### Existing Features
-
-  - Static web site with 4 separate pages (Home, Gallery, About, Contact)
-  - Responsive design for each page allowing use on mobile and desktop
-- __Header__
-  - Sticky header.
-  - NavBar in header linking to all for pages 	(Home, Gallery, About, Contact).
-  - Active page is shown in Navbar.
-  - Logo and website title in Navbar link to homepage.
-  - Responsive Nav drop down menu on mobile; navbar links disappear and burger icon appears.
-  - Responsive Nav drop down menu font style changes, increasing readability on mobile.
-  - Responsive title of page changes from “Z.D.Gigerowski” to “Z.D.G” on mobile.
-- __Homepage__
-  - Scroll through highlights with 3 stages
-  - First stage has a background image of a piece of artwork which is parallax
-  - Second stage and third stage have static background images of 2 other pieces of artwork
-  - All 3 stages include text content and a button with a call to action
-  - First stage and second stage buttons link to Gallery page
-  - Third stage button links to  Contact page
-  - Responsive page layout across mobile and desktop
-- __Gallery page__
-  - Download image icons link to new tab with high quality images for each art piece.
-  - Responsive page layout across mobile and desktop
-  - __About Page__
-  - Parallax background image
-  - Responsive page layout across mobile and desktop
- - __Contact Page__
-  - Form input placeholders disappear once text boxes are filled in
-  - Responsive page layout across mobile and desktop
-- __Footer__
-  - Sticky footer
-  - Back to top button
-  - Social links for Facebook, Youtube, Instagram and Twitter(X) link to their respective websites homepage
+<img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/1289325a-4a51-4bd4-b6ac-fe787dd81f2c">
+<img width="443" alt="image" src="https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/8e3f39b8-1e06-49c4-b776-ddd159e3d021">
 
 
 ### Features We'd implement in the future if we could
 
-  - A dedicated shop/merchendise page for purchase artwork or custom pieces
-  - Secure purchases
-  - Time line of the artist's life pointing out key/inspiring events
-  - Working email form
-
-
+  - A final count on the score at, for instance 5/-5, where the user or compueter would win and the game would reset at that point.
 
 ## Testing 
 
@@ -194,10 +132,10 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 ## Credits 
 
+Team Lead: Stefan Woutersen
+Team Members: Harrison Greenwood
+              James Barlow
 
-### Content 
-
- - Chat Gpt was used for the written paragrpahs on the about page : https://chat.openai.com/
 
 ### Media
 
