@@ -19,7 +19,10 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 - __Sitewide__
 
-  - As a visitor, I want the game to be mobile-responsive, so that I can play on my smartphone or tablet device.
+  - As a user, I want the game to be mobile-responsive, so that I can play on my smartphone or tablet device.
+  - As a site owner, I want a game to entertain users.
+  - As a user, I want to be able to see a score to know how well I am doing.
+  - As a user, I want to be able to read the rules of the game to understand how it works.
   
   ![image info]
   ![image info]
@@ -30,7 +33,14 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 - __Gamepage__
 
-
+ - This site is a simple online game for rock, paper, scissors, lizard, spock. Based on the game popularised in The Big Bang Theory.
+ - When first loaded users are presented with a rules modal, a diagram showing each outcome of the game. This can be closed by either clicking the "X" or the "Rules" button, which is set to toggle the modal.
+ - Users can then play the game by selecting any of the 5 options, presented as buttons each with a symbol representing the choice made.
+ - Once a selection has been made the outcome is displayed towards the bottom of the screen.
+ - Users can then play again by selecting one of the 5 options and the outcome will update to reflect the new result.
+ - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
+ - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
+   
 - __About__
 
   - As a user, I want to see pictures of the artist so that I can get to know them more.
@@ -45,34 +55,6 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
   - As a user, I want to see a timeline of the artist's work/life so that I can quickly learn about their journey as an artist.
 
       &#10003; Detailed biography sections made a timeline unnecessary
-
-- __Merchandise__
-
-  - As a user, I want the ability to purchase some art directly from the website so that I can easily support the artist.
-
-  ![image info](assets/userstoryimages/home%20page%20call%20to%20action.png)
-
-&#10003; All products are commisioned pieces so contacting the artist is the best way to make a purchase
-
-- __Footer__
-
-  - As a user, I want to see clickable social links in the footer so that I can easily go to the artist's socials to keep up to date with them.
-  - As the artist, I want to have clickable social links in the footer of the website so that I can increase traffic to them.
-  - As the artist, I want my copyrights to be visible in the footer so that I can protect my IP.
-  - As a user, I want back to top button on the footer so that I can return to the top of the page with only 1 click.
-
-  ![image info](assets/userstoryimages/footer.png)
-
-&#10003; Footer covers all the above user stories, all footer links and buttons change color on float for accesibility
-
-  - As a user, I want to see contact information in the footer so that I can easily contact the artist.
-
-      &#10023; The artist prefers to screen requests and has asked not to have contact information readily available but instead wants to encourage the use of the contact form page
-
-  - As a user, I want to see a contact link in the footer so that I can easily contact the artist.
-
-      &#10023; All nav links were removed from the footer as the nav bar would remain fixed in the viewport. This lead to a far cleaner look.
-  
 
 ### MoSCoW Table
 
