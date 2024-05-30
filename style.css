@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    max-height: 100%;
+    min-height: 100vh;
     overflow: hidden;
 }
 li, p {
@@ -25,14 +25,12 @@ head {
 }
 
 .main-container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: flex-start;
-    flex-grow: 1;
-    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Title Block */
@@ -42,12 +40,11 @@ head {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    top: auto;
-    left: 0;
+    top: 0;
     background-color: #0d001a;
     z-index: 1000;
-    padding: 10px 0;
     height: 10vh;
+    position: absolute;
 }
 
 .title-block ul {
@@ -59,7 +56,7 @@ head {
 }
 
 .title-block ul li {
-    font-size: 3.5vw;
+    font-size: 1vh;
 }
 
 /* Responsive font size for score titles */
@@ -77,15 +74,16 @@ head {
 /* User Choice */
 
 .pentagon-container {
-    width: 100vw;
-    height: auto;
-    padding-bottom: 80%; /* Maintain aspect ratio */
-    margin: 20px 0;
+    width: inherit;
+    height: 70vh;
+    max-height: 70vh;
+    position: absolute;
+    bottom: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #45a049;
-    max-height: 70vh;
+
 }
 
 .game-card {
@@ -104,37 +102,37 @@ head {
 
 .game-card:nth-child(1) {
     top: 30vh;
-    left: 42.7vw;
-    transform: translate(0,-25vw);
+    left: center;
+    transform: translate(0,-21vh);
     
 
 }
 .game-card:nth-child(3) {
     top: 30vh;
-    left: 42.7vw;
-    transform: rotate(144deg) translate(0,-25vw);
+    left: center;
+    transform: rotate(144deg) translate(0,-21vh);
 
 
 }
 
 .game-card:nth-child(4) {
     top: 30vh;
-    left: 42.7vw;
-    transform: rotate(216deg) translate(0,-25vw);
+    left: center;
+    transform: rotate(216deg) translate(0,-21vh);
 
 
 }
 
 .game-card:nth-child(5) {
     top: 30vh;
-    left: 42.7vw;
-    transform: rotate(288deg) translate(0,-25vw);;
+    left: center;
+    transform: rotate(288deg) translate(0,-21vh);;
 }
 
 .game-card:nth-child(2) {
     top: 30vh;
-    left: 42.7vw;
-    transform: rotate(72deg) translate(0,-25vw);
+    left: center;
+    transform: rotate(72deg) translate(0,-21vh);
 
 }
 .game-card:hover {
@@ -158,9 +156,10 @@ head {
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
-    margin-bottom: 0;
-    position: fixed;
-    bottom: 200px;
+    position: absolute;
+    bottom: 5vh;
+    background-color: aqua;
+    height: 15vh;
 }
 
 .choice {
@@ -179,8 +178,8 @@ head {
 }
 
 .user-pick, .pc-pick {
-    width: 15vw;
-    height: 15vw;
+    width: 7vh;
+    height: 7vh;
     background-color: #ffc61a;
     border-radius: 50%;
     display: flex;
@@ -229,9 +228,9 @@ head {
 /* Rules Button */
 .rules-btn {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
+    bottom: 3vw;
+    right: 5vw;
+    padding: 10px;
     font-size: 3.5vw;
     cursor: pointer;
     background-color: #666699;
@@ -281,4 +280,70 @@ head {
 
 .hidden {
     display: none;
+}
+@media only screen and (min-width: 768px) {
+    
+    .title-block ul li {
+        font-size: 1vw;
+    }
+    
+    /* Responsive font size for score titles */
+    .score-title {
+        font-size: 1vw;
+        margin-bottom: 10px;
+    }
+    
+    .score-count {
+        font-size: 1.5vw;
+        font-weight: bold;
+        text-align: center;
+    }
+    .choice p {
+        font-size: 1.5vw;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .result .title {
+        font-size: 1.5vw;
+        margin-bottom: 20px;
+    }
+    
+    .result button {
+        padding: 10px 20px;
+        font-size: 1.5vw;
+        cursor: pointer;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 5px;
+        color: #666699;
+        transition: background-color 0.2s;
+    }
+    .rules-btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        font-size: 1.5vw;
+        cursor: pointer;
+        background-color: #666699;
+        border: none;
+        border-radius: 5px;
+        color: #0d001a;
+        transition: background-color 0.2s;
+    }
+    .game-card {
+        position: relative;
+        background-color: #ffc61a;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: transform 0.15s;
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+    }
+    
 }
