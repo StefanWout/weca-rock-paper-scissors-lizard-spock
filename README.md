@@ -63,34 +63,14 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 ## Wireframes
 
+    - The below wireframe images show our original ideas for the basic layout of the page.
+
 ![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/4f59d7ac-4966-48d0-9cd3-04c436989cfb)
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/9c5809a0-329c-4a47-90bb-655c17013341)
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/e135424b-a90d-4dbf-a5d7-2e861aa61ade)
 
 
-/workspace/weca-rock-paper-scissors-lizard-spock/assets/readme-imgs/lowFidelityMobile.png
 
-- __Homepage__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Homepage.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Homepage-High-fidelity.png)
-
-- __Gallery__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Gallery-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Gallery-page-High-fidelity.png)
-
-- __About__
-  - Low fidelity
-  ![wireframes](assets/wireframes/About-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/About-page-High-fidelity.png)
-
-- __Contact__
-  - Low fidelity
-  ![wireframes](assets/wireframes/Contact-page.png)
-  - High fidelity
-  ![wireframes](assets/wireframes/Contact-page-High-fidelity.png)
   
 ### Existing Features
 
