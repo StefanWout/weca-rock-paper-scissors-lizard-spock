@@ -32,6 +32,7 @@ head {
     align-items: end;
     justify-content: flex-start;
     flex-grow: 1;
+    margin-bottom: 100px;
 }
 
 /* Title Block */
@@ -158,6 +159,8 @@ head {
     align-items: flex-end;
     width: 100%;
     margin-bottom: 0;
+    position: fixed;
+    bottom: 200px;
 }
 
 .choice {
