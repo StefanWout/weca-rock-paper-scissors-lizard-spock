@@ -31,6 +31,12 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
    - The score counter will increase by 1 with every victory for the user, and decrease by 1 with every defeat.
    - Users can rest the score counter, and therefore the game, by clicking the "Reset Game" button.
 
+### Issues
+
+  - We had issues with the responsiveness of the page when viewed on a laptop, with the top choice button moving under the header.
+  - We struggled to get the choice buttons to be responsive in a pentagon shape and stay relative to the other elements on the page. Resolved through trial and error with the flex properties.
+  - The rules modal appears when the page is first loaded, at first this was a bug, however after attempting to fix it with a toggle in JavaScript we decided to leave this as a feature of the game. The toggle works so the user can remove it and bring it back up if needed.
+
 ## Wireframes
 
   - The below wireframe images show our original ideas for the basic layout of the page.
