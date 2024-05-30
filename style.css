@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap');
-html {
-    height: 100%;
-    overflow: hidden;
-}
+
 body {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #0d001a;
@@ -29,11 +26,12 @@ head {
 
 .main-container {
     width: 100%;
-    display: flex; /* Added this */
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content: flex-start;
-    position: absolute;
+    flex-grow: 1;
 }
 
 /* Title Block */
@@ -48,6 +46,7 @@ head {
     background-color: #0d001a;
     z-index: 1000;
     padding: 10px 0;
+    height: 10vh;
 }
 
 .title-block ul {
@@ -77,14 +76,15 @@ head {
 /* User Choice */
 
 .pentagon-container {
-    background-color: #45a049;
-    position: relative;
-    top: 0;
-    width: 100%; 
+    width: 100vw;
     height: auto;
-    margin: 0 0 0; /* Center the container horizontally */
-    margin-bottom: 30vh;
-    margin-top: 4vh;
+    padding-bottom: 80%; /* Maintain aspect ratio */
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45a049;
+    max-height: 70vh;
 }
 
 .game-card {
@@ -102,37 +102,38 @@ head {
 }
 
 .game-card:nth-child(1) {
-    top: 10vh;
+    top: 30vh;
     left: 42.7vw;
-    transform: translate(0,-30vw);
+    transform: translate(0,-25vw);
+    
 
 }
 .game-card:nth-child(3) {
-    top: 10vh;
+    top: 30vh;
     left: 42.7vw;
-    transform: rotate(144deg) translate(0,-30vw);
+    transform: rotate(144deg) translate(0,-25vw);
 
 
 }
 
 .game-card:nth-child(4) {
-    top: 10vh;
+    top: 30vh;
     left: 42.7vw;
-    transform: rotate(216deg) translate(0,-30vw);
+    transform: rotate(216deg) translate(0,-25vw);
 
 
 }
 
 .game-card:nth-child(5) {
-    top: 10vh;
+    top: 30vh;
     left: 42.7vw;
-    transform: rotate(288deg) translate(0,-30vw);;
+    transform: rotate(288deg) translate(0,-25vw);;
 }
 
 .game-card:nth-child(2) {
-    top: 10vh;
+    top: 30vh;
     left: 42.7vw;
-    transform: rotate(72deg) translate(0,-30vw);
+    transform: rotate(72deg) translate(0,-25vw);
 
 }
 .game-card:hover {
@@ -154,9 +155,9 @@ head {
 .section.picked {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
-    margin-top: auto; /* Pushes .picked to the bottom */
+    margin-bottom: 0;
 }
 
 .choice {
@@ -183,6 +184,7 @@ head {
     justify-content: center;
     align-items: center;
     position: relative;
+    max-height: 20vh;
 }
 
 .user-pick img, .pc-pick img {
