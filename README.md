@@ -63,6 +63,11 @@ For the Code Institute Bootcamp Hackathon #2, our team decided to complete the R
 
 ## Wireframes
 
+![image](https://github.com/StefanWout/weca-rock-paper-scissors-lizard-spock/assets/165150313/4f59d7ac-4966-48d0-9cd3-04c436989cfb)
+
+
+/workspace/weca-rock-paper-scissors-lizard-spock/assets/readme-imgs/lowFidelityMobile.png
+
 - __Homepage__
   - Low fidelity
   ![wireframes](assets/wireframes/Homepage.png)
