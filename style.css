@@ -278,6 +278,57 @@ head {
 .hidden {
     display: none;
 }
+@media only screen and (max-width: 512px) {
+    .game-card:nth-child(1) {
+        top: 30vh;
+        left: center;
+        transform: translate(0,-14vh);
+        
+    
+    }
+    .game-card:nth-child(3) {
+        top: 30vh;
+        left: center;
+        transform: rotate(144deg) translate(0,-14vh);
+    
+    
+    }
+    
+    .game-card:nth-child(4) {
+        top: 30vh;
+        left: center;
+        transform: rotate(216deg) translate(0,-14vh);
+    
+    
+    }
+    
+    .game-card:nth-child(5) {
+        top: 30vh;
+        left: center;
+        transform: rotate(288deg) translate(0,-14vh);;
+    }
+    
+    .game-card:nth-child(2) {
+        top: 30vh;
+        left: center;
+        transform: rotate(72deg) translate(0,-14vh);
+    
+    }
+    .rules-btn {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #666699;
+        border: none;
+        border-radius: 5px;
+        color: #0d001a;
+        transition: background-color 0.2s;
+    }
+
+}
 @media only screen and (min-width: 768px) {
     
     .title-block ul li {
@@ -354,6 +405,14 @@ head {
         align-items: center;
         position: relative;
     }
-
+    .section.picked {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 100%;
+        position: absolute;
+        bottom: 7vh;
+        height: 13vh;
+    }
     
 }
